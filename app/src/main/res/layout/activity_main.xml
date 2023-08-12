@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABFF5722"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="12dp"
+        android:text="BILLER"
+        android:textColor="#FFEB3B"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="52dp"
+        android:text="____________________________________________________________"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="21dp"
+        android:gravity="center_horizontal"
+        android:text="_________________________________________________________"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/apples"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="43dp"
+        android:background="@drawable/round"
+        android:gravity="center_horizontal"
+        android:hint="No. of kilos of apples(Rs 200/kg)"
+        android:inputType="numberDecimal" />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="43dp"
+        android:background="@drawable/round"
+        android:gravity="center_horizontal"
+        android:hint="Customer's Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/mangos"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/apples"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="43dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/round"
+
+        android:hint="No. of kilos of mangos(Rs 250/kg)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/bananas"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/apples"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="42dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/round"
+        android:hint="No. of dozens of bananas(Rs 30/dozen)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/grapes"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/apples"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/round"
+
+        android:hint="No. of kilos of grapes(Rs 200/kg)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:text="CALCULATE"
+        android:background="@drawable/button"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="179dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="150dp"
+        android:background="@drawable/button2"
+        android:text="New Customer" />
+
+</RelativeLayout>
